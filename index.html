@@ -16,7 +16,22 @@
                 <input type="text" id="taskInput" placeholder="Nom de la tâche">
                 <textarea id="descInput" placeholder="Description..."></textarea>
                 <select id="statusInput">
+                    <option value="⏳ À commencer">⏳ À commencer</option>
+                    <option value="🏃 En cours">🏃 En cours</option>
+                    <option value="✅ Terminé">✅ Terminé</option>
+                </select>
+                <button id="addBtn">Ajouter</button>
+            </div>
+            <ul id="taskList"></ul>
+        </div>
 
+        <div class="details-section">
+            <h2>Fiche de Détails</h2>
+            <div id="detailsBox" class="box">
+                <p>Sélectionnez une tâche.</p>
+            </div>
+        </div>
+    </div>
 
 <script src="script.js"></script>
 </body>
